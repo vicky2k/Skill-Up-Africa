@@ -1,0 +1,7 @@
+Mr. Lagbaja- (A Rich Business Man) wants to start a Competitive Business that 
+Sells version control system to end users. He asked for my 
+Professional Advice . He wants an
+Overview on how to accomplish the project
+Create a Text file that has title of the project
+Then Consult your Software Engineer friend to write the overview
+Use GIT for Collaboration
