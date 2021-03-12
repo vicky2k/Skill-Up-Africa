@@ -8,7 +8,7 @@
 
 Javascript Statements are Programming Instructions that are carried out by our web browsers to add interactivity to our HTML web Pages. Statements are designed to work independently of any JavaScript object. An Example of a Javascript Statement is a Conditional Switch Statement like one shown below
 
-####JavaScript
+#### JavaScript
 
 ```javascript
 
@@ -41,7 +41,7 @@ Javascript statements can be categorized into
 - Object Manipulation Statements and 
 - Exception Handling Statements- Throw and Try ... Catch Statements.
 
-####Javascript
+#### Javascript
 
 ```javascript
 //An Example of a Javascript Conditional If..Else statement
