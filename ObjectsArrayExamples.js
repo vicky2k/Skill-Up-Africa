@@ -1,17 +1,78 @@
-###### Javascript DOM Explanation
+// 3 realistic objects with at least 10 key-value pairs, One of the 3 objects contain a key with another object value which in turn has 5 keyvalue pairs
 
-DOM stands Document Object Model and this is a platform and language-neutral interface that allows programs and scripts to dybamically access and update the content, structure and style of a document. Javascript DOM also refers to the model of the document that forms the current web page. 
-With the DOM, JavaScript can access and change all the elements of an HTML document. The Javascript  DOM structure forms a Tree Like Outline that shows the hierachy of elements in a web page.
 
-HTML elements normally exist as objects which in turn have properties, methods and events and in JavaScript, elements in the DOM are targeted with query selector methods.
+const CLUB = { 
+  firstName:"Manchester", 
+  lastName:"United", 
+  age:120, 
+  country:"UK", 
+  language:"English", 
+  nickname:"theRedDevils", 
+jerseyColor:"red",
+ manager:"OleGunnarSolskjær",
+  stadium:"oldTrafford",
+   captain:"HarryMacguire" 
+   }
+console.log(CLUB) ;
+console.log(CLUB.nickname) ;
 
-Some DOM Targetting Methods within a Document include
 
-Document.body, Document.title, Document.url
+const COUNTRY = { 
+  name:"Nigeria",
+   continent:"Africa",
+    region:"WestAfrica",
+     capital:"Abuja",
+      population:"200Million",
+       government:"Democracy",
+        statescount:36,
+         age: 61,
+          race:"Black",
+           flag:"GreenWhiteGreen"
+           }
+console.log(COUNTRY);
+console.log(COUNTRY.population);
 
-There are other older methods such as 
-getElementsByID
-getElementsByClassName
-getElementsByTagName
 
-etc.
+const COMPANY = { 
+  name:"EuidemTechnologies",
+   country:"Nigeria",
+    location:"Lagos",
+     registered:True,
+      age:5,        
+EmployeeCount: 50,
+ product:"Diadem",
+  program:"SkillUpAfrica",
+   value:"QualityDelivery"
+   industry: {
+      "Technology", "Education" "Hospitality", "Entertainment", "Logistics"
+        }
+    } 
+console.log(COMPANY);
+console.log(COMPANY.product);
+
+
+
+//3 realistic arrays with at least 3 other realistic arrays as elements
+
+const COLOURS = [["red", "blue", "green"], ["yellow", "purple", "orange"], ["white", "black", "grey"]];
+
+const SHAPES = [["circle", "square", "triangle"], ["rhombus", "cuboid", "pentagon"], ["hexagon", "cylinhder", "rectangle"]];
+
+const FRUITS = [["orange", "apple", banana"], ["pawpaw", "cashew", "strawberry"], ["mango", "pineapple", "coconut"]]; 
+
+// An array with two realistic objects as its elements
+
+
+const soil = [
+{
+		color: "red",
+		type: "clay",
+		texture: "thick"
+	}
+
+	{
+		color: "brown",
+		type: "sand",
+		texture: "light"
+	}
+]
